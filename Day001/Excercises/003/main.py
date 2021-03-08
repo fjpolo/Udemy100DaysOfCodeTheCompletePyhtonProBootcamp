@@ -1,3 +1,2 @@
 # Write a program that prints the number of characters in a user's name. You might need to Google for a function that calculates the length of a string.
-mystring = input("Enter something:")
-print("Number of chars: ", len(mystring))
+print("Number of chars: ", len(myinput("Enter something:")string))
