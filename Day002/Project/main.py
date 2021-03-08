@@ -10,8 +10,15 @@ if __name__ == "__main__":
     #HINT 2: https://www.kite.com/python/answers/how-to-limit-a-float-to-two-decimal-places-in-python
 
     print("Welcome to Tipulator 3.2")
-    billTotal = input("What was the total bill? $")
-    tipPercentage = input("What tip would you like to give? 10, 12 or 15? %")
-    nrPeople = input("How many people to split it?")
+    billTotal = float(input("What was the total bill? $"))
+    tip = int(input("What tip would you like to give? 10, 12 or 15? %"))
+    nrPeople = int(input("How many people to split it?"))
     # Calculate and print
-    print("Each person should pay $", float( round(float(billTotal) * (float(float(100)+float(tipPercentage))/float(100)) / float(nrPeople), 2 ) ) )
+    #print("Each person should pay $", float( round(float(billTotal) * (float(float(100)+float(tip))/float(100)) / float(nrPeople), 2 ) ) )
+    tipPercentage = tip / 100.0
+    TotalTipAmount = billTotal * tipPercentage
+    totalBill = billTotal + TotalTipAmount
+    billPerPerson = totalBill / nrPeople
+    finalAmmount = round( billPerPerson, 2 )
+    finalAmmount = "{:.2f}".format(billPerPerson)
+    print(f"Each person should pay ${finalAmmount}")
