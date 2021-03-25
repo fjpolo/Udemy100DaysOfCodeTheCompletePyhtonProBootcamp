@@ -50,13 +50,14 @@ def Divide(n1, n2):
     Takes two numbers and returns its division.-
     """
     if n2 == 0:
-        return "Error!Cannot divide by Zero!"
+        print("Error!Cannot divide by Zero!")
+        return 0
     return (n1/n2)
 
 # calculator
 def calculator():
     """
-    Calculator funciton.
+    Calculator function.
     """
     print(logo)
     num1 = float(input("What's the first number?: "))
