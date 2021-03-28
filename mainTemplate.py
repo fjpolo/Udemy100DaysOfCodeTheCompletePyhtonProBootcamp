@@ -5,16 +5,19 @@
 import os
 
 #
-# Global variables
+# Classes
 #
 
+#
+# Global variables
+#
 
 #
 # Private functions
 #
 
-# clearConsole
-def clearConsole():
+# clear_console
+def clear_console():
     """
     Clears console.
     """
@@ -28,3 +31,5 @@ def clearConsole():
 # main
 #
 if __name__ == "__main__":
+    # Clear console
+    clear_console()
