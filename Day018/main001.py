@@ -3,6 +3,7 @@
 # Imports
 #
 import os
+from turtle import Turtle, Screen
 
 #
 # Classes
@@ -33,3 +34,16 @@ def clear_console():
 if __name__ == "__main__":
     # Clear console
     clear_console()
+    # Create Timmy
+    timmy = Turtle()
+    timmy.shape("turtle")
+    timmy.color("blue")
+    timmy.forward(100)
+    timmy.right(90)
+    timmy.forward(100)
+
+
+
+    # Create screen
+    screen = Screen()
+    screen.exitonclick()
