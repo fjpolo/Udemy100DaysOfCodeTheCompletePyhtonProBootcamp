@@ -50,6 +50,14 @@ if __name__ == "__main__":
     # Snake
     #
     snakey = Snake()
+    # Listen...
+    screen.listen()
+    screen.onkey(snakey.up, "Up")
+    screen.onkey(snakey.down, "Down")
+    screen.onkey(snakey.left, "Left")
+    screen.onkey(snakey.right, "Right")
+
+    # game_is_on flag
     game_is_on = True
 
     #
