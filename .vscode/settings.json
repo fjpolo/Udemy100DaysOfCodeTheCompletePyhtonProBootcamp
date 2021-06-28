@@ -1,3 +1,5 @@
 {
-    "python.pythonPath": "C:\\Program Files (x86)\\Python38-32\\python.exe"
+    "python.pythonPath": "C:\\Program Files (x86)\\Python38-32\\python.exe",
+    "cortex-debug.armToolchainPath": "C:\\USERS\\FPOLO\\DOWNLOADS\\FRANCO\\COURSES\\STM32FROMZEROTOMAIN\\TOOLS\\GCC-ARM-NONE-EABI\\BIN",
+    "cortex-debug.openocdPath": "C:\\USERS\\FPOLO\\DOWNLOADS\\FRANCO\\COURSES\\STM32FROMZEROTOMAIN\\TOOLS\\OPENOCD\\BIN\\OPENOCD.EXE"
 }
