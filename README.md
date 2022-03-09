@@ -157,9 +157,9 @@ Who this course is for:
     
     ✔ Tkinter GUI
     
-    ✖ Tkinter: dynamic typing & Pomodoro GUI
+    ✔ Tkinter: dynamic typing & Pomodoro GUI
     
-    ✖ Tkinter: Password manager GUI app
+    ✔ Tkinter: Password manager GUI app
     
     ✖ Errors, exceptions & JSON data: improving the Password manager app
     
